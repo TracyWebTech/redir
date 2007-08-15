@@ -1,10 +1,15 @@
+redir (2.2.1-7) unstable; urgency=low
+
+  * clean up diff.gz
+
+ -- Daniel Kahn Gillmor <dkg-debian.org@fifthhorseman.net>  Wed, 15 Aug 2007 16:13:14 -0400
+
 redir (2.2.1-6) unstable; urgency=low
 
-  * don't strip binaries by default.  Thanks, Julien Danjou <acid@debian.org>
-    (Closes: #437898)
+  * (Unreleased) don't strip binaries by default.  Thanks, Julien
+    Danjou <acid@debian.org> (Closes: #437898)
   * bumped policy
   * format Hompage in description.
-  * clean up diff.gz
   * fix inetd example in notes file to match modern syntax
 
  -- Daniel Kahn Gillmor <dkg-debian.org@fifthhorseman.net>  Wed, 15 Aug 2007 14:56:58 -0400

@@ -1,0 +1,20 @@
+I stumbled across this tool when I needed to redirect some outside traffic
+to an inside machine (firewall of course realized with IP Masquerading...)
+
+I took one machine that was visible from the outside and redirected
+traffic coming from the outside to the inside host while keeping the
+ability to connect to that server from the inside.
+
+The following /etc/hosts.allow did the trick:
+
+in.telnetd:     .school.edu
+# Dont touch the above statement enables regular on campus telnet access
+# to host.
+#
+# Add to lalug.org whatever hosts need access to the insidehost
+in.telnetd:     lalug.org : twist /usr/sbin/redir --inetd --chost=insidehost -cport=23
+
+The first line allows regular access from our school. The second
+allows special access from that outside host to the inside machine.
+
+Christoph Lameter, <clameter@debian.org>

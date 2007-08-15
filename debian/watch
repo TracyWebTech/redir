@@ -1,0 +1,2 @@
+version=3
+http://sammy.net/~sammy/hacks/ (?:.*/)?redir-?_?([\d+\.]+|\d+)\.tar.* debian uupdate

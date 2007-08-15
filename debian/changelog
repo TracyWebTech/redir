@@ -1,0 +1,146 @@
+redir (2.2.1-6) unstable; urgency=low
+
+  * don't strip binaries by default.  Thanks, Julien Danjou <acid@debian.org>
+    (Closes: #437898)
+  * bumped policy
+  * format Hompage in description.
+  * clean up diff.gz
+  * fix inetd example in notes file to match modern syntax
+
+ -- Daniel Kahn Gillmor <dkg-debian.org@fifthhorseman.net>  Wed, 15 Aug 2007 14:56:58 -0400
+
+redir (2.2.1-5) unstable; urgency=low
+
+  * (Unreleased) switched to debhelper compatibility version 5
+  
+ -- Daniel Kahn Gillmor <dkg-debian.org@fifthhorseman.net>  Fri, 25 Nov 2005 21:30:33 -0500
+
+redir (2.2.1-4) unstable; urgency=low
+
+  * (Unreleased) modified debian/watch to use the fancier version
+    suggested by the watch wizard at http://dehs.alioth.debian.org/
+ -- Daniel Kahn Gillmor <dkg-debian.org@fifthhorseman.net>  Fri, 25 Nov 2005 12:42:51 -0500
+
+redir (2.2.1-3) unstable; urgency=low
+
+  * (Unreleased) added debian/watch
+  
+ -- Daniel Kahn Gillmor <dkg-debian.org@fifthhorseman.net>  Thu, 24 Nov 2005 01:10:16 -0500
+
+redir (2.2.1-2) unstable; urgency=low
+
+  * Now using dpatch
+  * fixed timeouts to only happen after full duration of inactivity, 
+    rather than absolute.  Thanks to Robert de Bath (Closes: #142382)
+  * fixed problematic buffer allocation introduced by bandwidth 
+    throttling (Closes: #335288).
+  * Builds without any warnings from gcc, even with --pedantic
+  
+ -- Daniel Kahn Gillmor <dkg-debian.org@fifthhorseman.net>  Sun, 23 Oct 2005 00:06:48 -0400
+
+redir (2.2.1-1) unstable; urgency=low
+
+  * New maintainer (closes: #328602)
+  * new upstream release, includes upstream's bandwidth throttling
+    (Closes: #147061, #139197)
+  * changed flag in docs from --maxbandwidth to --max_bandwidth
+    to match source.
+  * changed priority from optional to extra to match override
+  * redir-2.1.lsm changed to redir-2.2.lsm found at 
+    http://www.ibiblio.org/linsearch/lsms/redir-2.2.html
+  * debian/control: version from 3.6.1.0 to 3.6.2.1 (no changes)
+  * debian/rules: now using debhelper, compatibility level 4
+  
+ -- Daniel Kahn Gillmor <dkg-debian.org@fifthhorseman.net>  Fri, 21 Oct 2005 23:54:05 -0400
+
+redir (2.1-3) unstable; urgency=low
+
+  * thanks for the NMU (Closes: #190515)
+    Looking for new Maintainer, see #328602
+  * redir.c: fixed compile warnings (Closes: #291835)
+  * debian/copyright: fixed download url (Closes: #188299)
+  * debian/control: description typo fix (Closes: #277257)
+  * debian/copyright: make lintian happy - point to common-licenses
+  * debian/control: version from 3.1.1 to 3.6.1.0 (no changes)
+  
+ -- Bernd Eckenfels <ecki@debian.org>  Fri, 16 Sep 2005 18:47:50 +0200
+
+redir (2.1-2.1) unstable; urgency=low
+
+  * NMU.
+  * Add Build-Depends on debhelper and libwrap0-dev.  Closes: #190515.
+
+ -- Daniel Schepler <schepler@debian.org>  Mon, 18 Aug 2003 00:57:34 -0700
+
+redir (2.1-2) unstable; urgency=low
+
+  * use TCP_WRAPPER (closes: #66512)
+  * closes: #54247 (added a few ntohs() calls and reported it upstream)
+  * closes: #52518 (ignore accept errors)
+  * closes: #40260 (supported in 2.1)
+  * include section and priority in bin package (dh_gencontrol -- -isp)
+  
+ -- Bernd Eckenfels <ecki@debian.org>  Sun, 23 Jul 2000 04:58:43 +0200
+
+redir (2.1-1) unstable; urgency=low
+
+  * new upstream release (#50815, #34500)
+  * new package upload of source and diff (#44259)
+  * fixed spelling in manpage (#36821, #36143)
+
+ -- Bernd Eckenfels <ecki@debian.org>  Sun, 21 Nov 1999 18:59:20 +0100
+
+redir (1.2-1) unstable; urgency=low
+
+  * new upstream release
+  * adds support for ftp
+  * adds support for transparency (Bug#13983)
+
+ -- Bernd Eckenfels <ecki@debian.org>  Sun,  1 Nov 1998 08:19:17 +0100
+
+redir (1.0-2) unstable; urgency=low
+
+  * make lintian happy (changelog.Debian)
+  * fixed typo in describtion
+
+ -- Bernd Eckenfels <ecki@debian.org>  Sun,  1 Nov 1998 08:19:17 +0100
+
+redir (1.0-1) unstable; urgency=low
+
+  * fixed a few compiler warnings (again), reported to upstream author
+  * new upstream source (Bug#27552)
+
+ -- Bernd Eckenfels <ecki@debian.org>  Sun,  1 Nov 1998 07:00:50 +0100
+
+redir (0.7-4) frozen; urgency=low
+
+  * fixed short describtion (#9925)
+  * added casting to setsockopt to fix compiler warning
+
+ -- Bernd Eckenfels <ecki@debian.org>  Sat, 18 Apr 1998 22:27:53 +0200
+
+redir (0.7-3) frozen unstable; urgency=low
+
+  * New Maintainer (old: Christoph Lameter <clameter@debian.org>)
+  * more verbose copyright file
+  * removed /usr/doc/copyright
+  * compressed docu and man page
+  * clean removes debian/substvars
+  * fix permission of man page (bug#5552)
+
+ -- Christoph Lameter <clameter@debian.org>  Thu, 21 Nov 1996 21:14:54 +0100
+
+redir (0.7-2) unstable; urgency=low
+
+  * Forgot to install the copyright file into /usr/doc/copyright
+
+ -- Christoph Lameter <clameter@debian.org>  Sat, 21 Sep 1996 14:51:46 +0800
+
+redir (0.7-1) unstable; urgency=low
+
+  * Initial Release
+
+ -- Christoph Lameter <clameter@debian.org>  Tue, 17 Sep 1996 14:51:46 +0800
+
+
+ 

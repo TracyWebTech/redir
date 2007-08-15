@@ -1,0 +1,11 @@
+01_fix_max_bandwidth_docs.dpatch
+02_use_ntohs.dpatch
+03_fix_tcp_wrappers.dpatch
+04_fix_timeouts.dpatch
+05_pedantic.dpatch
+06_fix_shaper_buffer.dpatch
+07_cosmetics.dpatch
+08_add_wrappers.dpatch
+09_add_linux_software_map.dpatch
+15_deb_cosmetics.dpatch
+20_do_not_strip.dpatch

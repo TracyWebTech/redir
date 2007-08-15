@@ -1,0 +1,23 @@
+Source: redir
+Section: net
+Priority: extra
+Maintainer: Daniel Kahn Gillmor <dkg-debian.org@fifthhorseman.net>
+Build-Depends: debhelper (>=5), libwrap0-dev, dpatch
+Standards-Version: 3.7.2
+
+Package: redir
+Architecture: any
+Depends: ${shlibs:Depends}
+Description: Redirect TCP connections
+ It can run under inetd or stand alone (in which case it handles
+ multiple connections).  It is 8 bit clean, not limited to line
+ mode, is small and light. Supports transparency, FTP redirects, http
+ proxying, and bandwidth limiting.
+ .
+ redir is all you need to redirect traffic across firewalls authenticate
+ based on an IP address etc etc. No need for the firewall toolkit. The
+ functionality of inetd/tcpd and "redir" will allow you to do everything
+ you need without screwy telnet/ftp etc gateways. (I assume you are running
+ IP Masquerading of course.)
+ .
+  Homepage: http://sammy.net/~sammy/hacks/

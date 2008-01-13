@@ -1,3 +1,11 @@
+redir (2.2.1-8) unstable; urgency=low
+
+  * added Homepage, Vcs-Svn, Vcs-Browser, and XS-Dm-Upload-Allowed fields
+    to debian/control
+  * Bumped Standards-Version: to 3.7.3 (no changes needed)
+
+ -- Daniel Kahn Gillmor <dkg-debian.org@fifthhorseman.net>  Sun, 13 Jan 2008 14:39:30 -0500
+
 redir (2.2.1-7) unstable; urgency=low
 
   * clean up diff.gz
@@ -9,7 +17,7 @@ redir (2.2.1-6) unstable; urgency=low
   * (Unreleased) don't strip binaries by default.  Thanks, Julien
     Danjou <acid@debian.org> (Closes: #437898)
   * bumped policy
-  * format Hompage in description.
+  * format Homepage in description.
   * fix inetd example in notes file to match modern syntax
 
  -- Daniel Kahn Gillmor <dkg-debian.org@fifthhorseman.net>  Wed, 15 Aug 2007 14:56:58 -0400

@@ -3,7 +3,11 @@ Section: net
 Priority: extra
 Maintainer: Daniel Kahn Gillmor <dkg-debian.org@fifthhorseman.net>
 Build-Depends: debhelper (>=5), libwrap0-dev, dpatch
-Standards-Version: 3.7.2
+Standards-Version: 3.7.3
+Homepage: http://sammy.net/~sammy/hacks/
+Vcs-Svn: http://cmrg.fifthhorseman.net/svn/trunk/redir
+Vcs-Browser: http://cmrg.fifthhorseman.net/browser/trunk/redir
+XS-Dm-Upload-Allowed: yes
 
 Package: redir
 Architecture: any
@@ -19,5 +23,3 @@ Description: Redirect TCP connections
  functionality of inetd/tcpd and "redir" will allow you to do everything
  you need without screwy telnet/ftp etc gateways. (I assume you are running
  IP Masquerading of course.)
- .
-  Homepage: http://sammy.net/~sammy/hacks/

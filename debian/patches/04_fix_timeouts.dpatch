@@ -1,5 +1,5 @@
 #! /bin/sh /usr/share/dpatch/dpatch-run
-## 04_fix_timeouts.dpatch by Daniel Kahn Gillmor <dkg-debian.org@fifthhorseman.net>
+## 04_fix_timeouts.dpatch by Daniel Kahn Gillmor <dkg@fifthhorseman.net>
 ##
 ## All lines beginning with `## DP:' are a description of the patch.
 ## DP: Apply a close approximation of Robert de Bath's patch for bug #142382

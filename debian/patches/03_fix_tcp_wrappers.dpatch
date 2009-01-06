@@ -1,5 +1,5 @@
 #! /bin/sh /usr/share/dpatch/dpatch-run
-## 03_fix_tcp_wrappers.dpatch by Daniel Kahn Gillmor <dkg-debian.org@fifthhorseman.net>
+## 03_fix_tcp_wrappers.dpatch by Daniel Kahn Gillmor <dkg@fifthhorseman.net>
 ##
 ## All lines beginning with `## DP:' are a description of the patch.
 ## DP: fix calls to tcp wrappers

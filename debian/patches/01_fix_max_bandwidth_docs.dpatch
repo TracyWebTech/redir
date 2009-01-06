@@ -1,5 +1,5 @@
 #! /bin/sh /usr/share/dpatch/dpatch-run
-## 01_fix_max_bandwidth_docs.dpatch by Daniel Kahn Gillmor <dkg-debian.org@fifthhorseman.net>
+## 01_fix_max_bandwidth_docs.dpatch by Daniel Kahn Gillmor <dkg@fifthhorseman.net>
 ##
 ## All lines beginning with `## DP:' are a description of the patch.
 ## DP: Fix docs and --help to show --max_bandwidth instead of --maxbandwidth

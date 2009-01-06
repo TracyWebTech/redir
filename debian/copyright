@@ -9,10 +9,10 @@ a simple TCP Port Redirector
 
 Inital Debian Package was put together by Christoph Lameter, current
 Maintainer is Bernd Eckenfels <ecki@debian.org>, and potentially
-Daniel Kahn Gillmor <dkg-debian.org@fifthhorseman.net>.
+Daniel Kahn Gillmor <dkg@fifthhorseman.net>.
 
 All modifications for debian are copyright by Christoph Lameter
-(-1996), Bernd Eckenfels (1996-2005), and Daniel Kahn Gillmor (2005)
+(-1996), Bernd Eckenfels (1996-2005), and Daniel Kahn Gillmor (2005-)
 
 redir is released under GPL (see /usr/share/common-licenses) by:
 

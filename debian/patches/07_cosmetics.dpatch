@@ -1,5 +1,5 @@
 #! /bin/sh /usr/share/dpatch/dpatch-run
-## 07_cosmetics.dpatch by Daniel Kahn Gillmor <dkg-debian.org@fifthhorseman.net>
+## 07_cosmetics.dpatch by Daniel Kahn Gillmor <dkg@fifthhorseman.net>
 ##
 ## All lines beginning with `## DP:' are a description of the patch.
 ## DP: Cosmetic fixes which could be applied upstream

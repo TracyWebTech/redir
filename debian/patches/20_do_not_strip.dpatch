@@ -1,5 +1,5 @@
 #! /bin/sh /usr/share/dpatch/dpatch-run
-## 20_do_not_strip.dpatch by Daniel Kahn Gillmor <dkg-debian.org@fifthhorseman.net>
+## 20_do_not_strip.dpatch by Daniel Kahn Gillmor <dkg@fifthhorseman.net>
 ##
 ## All lines beginning with `## DP:' are a description of the patch.
 ## DP: don't strip by default.  let dh_strip take care of it.

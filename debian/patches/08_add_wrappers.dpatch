@@ -1,5 +1,5 @@
 #! /bin/sh /usr/share/dpatch/dpatch-run
-## 08_add_wrappers.dpatch by Daniel Kahn Gillmor <dkg-debian.org@fifthhorseman.net>
+## 08_add_wrappers.dpatch by Daniel Kahn Gillmor <dkg@fifthhorseman.net>
 ##
 ## All lines beginning with `## DP:' are a description of the patch.
 ## DP: Enabling TCP wrapper support

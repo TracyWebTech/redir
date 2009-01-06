@@ -1,7 +1,7 @@
 Source: redir
 Section: net
 Priority: extra
-Maintainer: Daniel Kahn Gillmor <dkg-debian.org@fifthhorseman.net>
+Maintainer: Daniel Kahn Gillmor <dkg@fifthhorseman.net>
 Build-Depends: debhelper (>=5), libwrap0-dev, dpatch
 Standards-Version: 3.7.3
 Homepage: http://sammy.net/~sammy/hacks/

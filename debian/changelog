@@ -1,3 +1,9 @@
+redir (2.2.1-9~pre) UNRELEASED; urgency=low
+
+  * updated my e-mail address.
+
+ -- Daniel Kahn Gillmor <dkg@fifthhorseman.net>  Tue, 06 Jan 2009 11:13:10 -0500
+
 redir (2.2.1-8) unstable; urgency=low
 
   * added Homepage, Vcs-Svn, Vcs-Browser, and XS-Dm-Upload-Allowed fields

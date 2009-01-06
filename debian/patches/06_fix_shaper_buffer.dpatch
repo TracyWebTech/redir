@@ -1,5 +1,5 @@
 #! /bin/sh /usr/share/dpatch/dpatch-run
-## 06_fix_shaper_buffer.dpatch by Daniel Kahn Gillmor <dkg-debian.org@fifthhorseman.net>
+## 06_fix_shaper_buffer.dpatch by Daniel Kahn Gillmor <dkg@fifthhorseman.net>
 ##
 ## All lines beginning with `## DP:' are a description of the patch.
 ## DP: properly allocate copyloop buffer

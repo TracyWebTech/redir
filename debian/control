@@ -19,7 +19,7 @@ Description: Redirect TCP connections
  proxying, and bandwidth limiting.
  .
  redir is all you need to redirect traffic across firewalls authenticate
- based on an IP address etc etc. No need for the firewall toolkit. The
+ based on an IP address etc. No need for the firewall toolkit. The
  functionality of inetd/tcpd and "redir" will allow you to do everything
  you need without screwy telnet/ftp etc gateways. (I assume you are running
  IP Masquerading of course.)

@@ -7,15 +7,14 @@ http://sammy.net/~sammy/hacks/redir-2.2.1.tar.gz
 
 a simple TCP Port Redirector
 
-Inital Debian Package was put together by Christoph Lameter, current
-Maintainer is Bernd Eckenfels <ecki@debian.org>, and potentially
-Daniel Kahn Gillmor <dkg@fifthhorseman.net>.
+Initial Debian Package was put together by Christoph Lameter, current
+maintainer is Daniel Kahn Gillmor <dkg@fifthhorseman.net>.
+
+redir is Copyright 1996-1999 Nigel Metheringham, Sam Creasey, Thomas
+Osterried, Harald Holzer, and Emmanuel Chantréau.
 
 All modifications for debian are copyright by Christoph Lameter
 (-1996), Bernd Eckenfels (1996-2005), and Daniel Kahn Gillmor (2005-)
 
-redir is released under GPL (see /usr/share/common-licenses) by:
-
-        Nigel Metheringham
-        Nigel.Metheringham@ThePLAnet.net
-        30 June, 1996
+It is released under GPL version 2 or later (see
+/usr/share/common-licenses/GPL).

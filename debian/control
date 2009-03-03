@@ -3,7 +3,7 @@ Section: net
 Priority: extra
 Maintainer: Daniel Kahn Gillmor <dkg@fifthhorseman.net>
 Build-Depends: debhelper (>=5), libwrap0-dev, dpatch
-Standards-Version: 3.7.3
+Standards-Version: 3.8.0
 Homepage: http://sammy.net/~sammy/hacks/
 Vcs-Svn: http://cmrg.fifthhorseman.net/svn/trunk/redir
 Vcs-Browser: http://cmrg.fifthhorseman.net/browser/trunk/redir

@@ -45,7 +45,7 @@ diff -urNad redir~/redir.c redir/redir.c
 +			exit(1);
 +		}
 +	}
-+	ret = setsockopt(servsock, SOL_SOCKET, SO_LINGER, &linger_opt, sizeof(lingeropt)); 
++	ret = setsockopt(servsock, SOL_SOCKET, SO_LINGER, &linger_opt, sizeof(linger_opt)); 
 +	if (ret != 0) {
 +		if(fail) {
 +			return -1;

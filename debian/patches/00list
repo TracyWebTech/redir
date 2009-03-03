@@ -9,3 +9,4 @@
 09_add_linux_software_map.dpatch
 15_deb_cosmetics.dpatch
 20_do_not_strip.dpatch
+25_fix_setsockopt.dpatch

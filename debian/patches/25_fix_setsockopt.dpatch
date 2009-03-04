@@ -1,5 +1,5 @@
 #! /bin/sh /usr/share/dpatch/dpatch-run
-## 25_fix_setsockopt.dpatch by  <dkg@fifthhorseman.net>
+## 25_fix_setsockopt.dpatch by Daniel Kahn Gillmor <dkg@fifthhorseman.net>
 ##
 ## All lines beginning with `## DP:' are a description of the patch.
 ## DP: Ensure that the server socket has SO_REUSEADDR and SO_LINGER set properly.

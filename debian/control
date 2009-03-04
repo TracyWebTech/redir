@@ -7,7 +7,7 @@ Standards-Version: 3.8.0
 Homepage: http://sammy.net/~sammy/hacks/
 Vcs-Svn: http://cmrg.fifthhorseman.net/svn/trunk/redir
 Vcs-Browser: http://cmrg.fifthhorseman.net/browser/trunk/redir
-XS-Dm-Upload-Allowed: yes
+Dm-Upload-Allowed: yes
 
 Package: redir
 Architecture: any

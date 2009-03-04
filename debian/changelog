@@ -1,11 +1,12 @@
-redir (2.2.1-9~pre) UNRELEASED; urgency=low
+redir (2.2.1-9) unstable; urgency=low
 
   * updated my e-mail address.
   * fix calls to setsockopt to ensure that SO_REUSEADDR and SO_LINGER take
     effect (Closes: #508140)
   * bumped policy to 3.8.0 (added README.source)
+  * clean up manpage to make lintian happy.
 
- -- Daniel Kahn Gillmor <dkg@fifthhorseman.net>  Tue, 03 Mar 2009 17:58:55 -0500
+ -- Daniel Kahn Gillmor <dkg@fifthhorseman.net>  Tue, 03 Mar 2009 19:04:40 -0500
 
 redir (2.2.1-8) unstable; urgency=low
 

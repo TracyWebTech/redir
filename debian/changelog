@@ -1,3 +1,9 @@
+redir (2.2.1-10~pre) UNRELEASED; urgency=low
+
+  * fix typo in manpage.
+
+ -- Daniel Kahn Gillmor <dkg@fifthhorseman.net>  Tue, 03 Mar 2009 19:41:39 -0500
+
 redir (2.2.1-9) unstable; urgency=low
 
   * updated my e-mail address.

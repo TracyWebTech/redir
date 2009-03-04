@@ -36,7 +36,7 @@ diff -urNad redir~/redir.man redir/redir.man
 +.RB [ \-\-laddr=incoming.ip.address ]
 +.RB [ \-\-caddr=host ]
 +.RB [ \-\-debug ]
-+.RB [ \-\-syslog 
++.RB [ \-\-syslog ]
 +.RB [ \-\-name=str ] 
 +.RB [ \-\-timeout=n ]
 +.RB [ \-\-bind_addr=my.other.ip.address ]

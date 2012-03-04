@@ -1,8 +1,13 @@
-redir (2.2.1-10~pre) UNRELEASED; urgency=low
+redir (2.2.1-10) unstable; urgency=low
 
   * fix typo in manpage.
+  * drop dpatch build-dep
+  * convert to 3.0 (quilt)
+  * debian/control: move Vcs- arguments
+  * bump Standards-Version to 3.9.3 (no changes needed)
+  * debian/rules: convert to minimal debhelper
 
- -- Daniel Kahn Gillmor <dkg@fifthhorseman.net>  Tue, 03 Mar 2009 19:41:39 -0500
+ -- Daniel Kahn Gillmor <dkg@fifthhorseman.net>  Sun, 04 Mar 2012 17:40:37 -0500
 
 redir (2.2.1-9) unstable; urgency=low
 

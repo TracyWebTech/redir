@@ -2,16 +2,14 @@ Source: redir
 Section: net
 Priority: extra
 Maintainer: Daniel Kahn Gillmor <dkg@fifthhorseman.net>
-Build-Depends: debhelper (>=5), libwrap0-dev, dpatch
-Standards-Version: 3.8.0
+Build-Depends: debhelper (>=8), libwrap0-dev
+Standards-Version: 3.9.3
 Homepage: http://sammy.net/~sammy/hacks/
-Vcs-Svn: http://cmrg.fifthhorseman.net/svn/trunk/redir
-Vcs-Browser: http://cmrg.fifthhorseman.net/browser/trunk/redir
-Dm-Upload-Allowed: yes
+Vcs-Git: git://lair.fifthhorseman.net/~dkg/redir
 
 Package: redir
 Architecture: any
-Depends: ${shlibs:Depends}
+Depends: ${shlibs:Depends}, ${misc:Depends}
 Description: Redirect TCP connections
  It can run under inetd or stand alone (in which case it handles
  multiple connections).  It is 8 bit clean, not limited to line
